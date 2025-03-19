@@ -17,23 +17,36 @@ This project is an AI-powered voice assistant that allows users to issue system 
 #### 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/ai-voice-assistant.git
-cd ai-voice-assistant
+git clone https://github.com/hemantkumarlearning/CommandBot.git
+cd CommandBot
 ```
-#### 2. Install the required dependencies: 
+
+#### 2. Set Up a Virtual Environment
+
+To ensure project dependencies don’t interfere with your system’s Python packages, it’s recommended to create and activate a virtual environment.
+
+On Windows:
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+#### 3. Install the required dependencies: 
 
 This project requires Python 3.7+ and several Python packages.
 
 ```
 pip install -r requirements.txt
 ```
-#### 3. Setup the SpeechRecognition library:
+#### 4. Setup the SpeechRecognition library:
 
 Ensure you have a microphone connected and working.
 
-#### 4. Groq LLaMA Model:
+#### 5. Groq LLaMA Model:
 
-Follow any setup instructions for the Groq LLaMA model or ensure it’s integrated with the project. You may need to install the model using specific tools or APIs.
+To use the Groq LLaMA model, you need a Groq API key. Follow these steps to set it up:
+
+Obtain a Groq API Key: Go to the Groq website and sign up for an account if you haven't already. After signing in, navigate to the API section to generate an API key and You're  Good To Go.
 
 ## Usage
 
